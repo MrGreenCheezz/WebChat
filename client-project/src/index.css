@@ -1,0 +1,58 @@
+.MainWindow{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: rgb(71, 66, 66);
+  width: fit-content;
+  height: fit-content;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.ChatWindow{
+  flex: 3;
+  background-color: #969696;
+  padding: 20px;
+  overflow-y: scroll;
+  max-width: 100vw;
+  max-height: 70vh;
+}
+
+.UserWindow{
+            flex: 1;
+            background-color: rgb(230, 230, 230);
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+}
+.ChatInput{
+  width: 900px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.SendButton{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.SendButton:hover{
+  background-color: #0056b3;
+}
+.InputHolder{
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
